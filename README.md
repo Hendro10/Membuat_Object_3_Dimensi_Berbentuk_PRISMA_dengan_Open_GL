@@ -7,11 +7,11 @@ Untuk menggambar menggunakan OpenGL berikut adalah langkah-langkah yang harus ki
 1. Download File 
 File yang kita butuhkan yaitu diantaranya:
 
-a. Dev-Cpp 5.11 TDM-GCC 4.9.2 Setup.exe
+   a. Dev-Cpp 5.11 TDM-GCC 4.9.2 Setup.exe
 
-b. FreeGLUT-MinGW.zip
+   b. FreeGLUT-MinGW.zip
 
-c. Linker.txt
+   c. Linker.txt
 
 2. Menambahkan  file GL, lib, dan bin 
 Copykan file GL ke folder C:\Program Files(x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include\GL
