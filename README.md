@@ -33,7 +33,7 @@ Ketikan program seperti di bawah ini
 #include <GL/glut.h>
 /* Global variables */
 char title[] = "Prisma Segi Tiga";
-GLfloat rotationX = 0.0f;
+GLfloat rotationX = 0.0f;
 GLfloat rotationY = 0.0f;
 int prevMouseX = 0;
 int prevMouseY = 0;
