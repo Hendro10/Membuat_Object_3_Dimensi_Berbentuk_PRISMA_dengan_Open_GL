@@ -6,9 +6,10 @@ Untuk menggambar menggunakan OpenGL berikut adalah langkah-langkah yang harus ki
 
 1. Download File 
 File yang kita butuhkan yaitu diantaranya:
-Dev-Cpp 5.11 TDM-GCC 4.9.2 Setup.exe
-FreeGLUT-MinGW.zip
-Linker.txt
+
+a. Dev-Cpp 5.11 TDM-GCC 4.9.2 Setup.exe
+b. FreeGLUT-MinGW.zip
+c. Linker.txt
 
 2. Menambahkan  file GL, lib, dan bin 
 Copykan file GL ke folder C:\Program Files(x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include\GL
@@ -28,7 +29,7 @@ Ketikan program seperti di bawah ini
  */
 #include <windows.h>
 #include <GL/glut.h>
-/* Global variables */
+/* Global variables */
 char title[] = "Prisma Segi Tiga";
 GLfloat rotationX = 0.0f;
 GLfloat rotationY = 0.0f;
@@ -70,7 +71,7 @@ void display()
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);  // Clear color and depth buffers
     glMatrixMode(GL_MODELVIEW);                          // To operate on model-view matrix
-// Render a color-cube consisting of 6 quads with different colors
+// Render a color-cube consisting of 6 quads with different colors
     glLoadIdentity();                                    // Reset the model-view matrix
     glTranslatef(0.0f, 0.0f, -6.0f);                     // Move right and into the screen
     glRotatef(rotationX, 1.0f, 0.0f, 0.0f);
@@ -154,7 +155,7 @@ void mouseMove(int x, int y)
     
     glutPostRedisplay();    
 }
-void mouseButton(int button, int state, int x, int y) 
+void mouseButton(int button, int state, int x, int y) 
 {
     if (state == GLUT_DOWN) 
         {
